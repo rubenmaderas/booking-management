@@ -1,13 +1,12 @@
-package com.booking_management.domain.models;
+package com.booking_management.infrastructure.adapters.inbound.dto;
 
 import com.booking_management.domain.enums.Role;
+import lombok.Builder;
 import lombok.Data;
-import lombok.ToString;
 
 @Data
-@ToString
-public class UserModel {
-
+@Builder
+public class UserResponseDTO {
     private Long id;
     private String name;
     private String email;
