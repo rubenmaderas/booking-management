@@ -26,6 +26,4 @@ public class JsonPlaceholderClient implements UserRepositoryPort {
         return Optional.ofNullable(user)
                 .map(mapper::toUserModel);
     }
-
 }
-

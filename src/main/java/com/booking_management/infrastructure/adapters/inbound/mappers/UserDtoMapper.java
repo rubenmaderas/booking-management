@@ -8,6 +8,5 @@ import org.mapstruct.Mapper;
 public interface UserDtoMapper {
 
     UserResponseDto toDto(UserModel userModel);
-
 }
 
