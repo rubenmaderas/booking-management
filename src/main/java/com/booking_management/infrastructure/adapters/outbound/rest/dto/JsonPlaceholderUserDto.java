@@ -3,7 +3,7 @@ package com.booking_management.infrastructure.adapters.outbound.rest.dto;
 import lombok.Data;
 
 @Data
-public class JsonPlaceholderUserDTO {
+public class JsonPlaceholderUserDto {
     private long id;
     private String name;
     private String username;
